@@ -7,7 +7,7 @@
     "dev": "vite",
     "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
     "build": "tsc && vite build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
